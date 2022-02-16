@@ -644,7 +644,7 @@ boltApp.message(/^\$my-reservations$/, async ({ say, payload }) => {
 
 // Start the application
 (async () => {
-  boltApp.start(3000);
+  boltApp.start(process.env.PORT || 3000);
   console.log('⚡️ Slack parking add-on app is running!');
 })();
 
