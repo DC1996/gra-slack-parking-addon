@@ -1,0 +1,269 @@
+[
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "New reservation",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "datepicker",
+				"initial_date": "2022-02-11",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a date",
+					"emoji": true
+				},
+				"action_id": "datepicker-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Pick a date",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select an item",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "A003",
+							"emoji": true
+						},
+						"value": "A002"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "A003",
+							"emoji": true
+						},
+						"value": "A003"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "A004",
+							"emoji": true
+						},
+						"value": "A004"
+					}
+				],
+				"action_id": "static_select-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Select a parking slot",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " "
+			}
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "radio_buttons",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "All day",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Half a day (AM)",
+							"emoji": true
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Half a day (PM)",
+							"emoji": true
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "radio_buttons-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "TIme",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Reserve",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "click_me_123",
+					"action_id": "actionId-0"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Cancel",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "click_me_123",
+					"action_id": "actionId-1"
+				}
+			]
+		}
+	]
+},
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "New reservation",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"block_id": "uniqueID",
+			"type": "actions",
+			"elements": [
+				{
+					"type": "datepicker",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select a date",
+						"emoji": true
+					},
+					"action_id": "actionId-1"
+				},
+				{
+					"type": "static_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select parking slot",
+						"emoji": true
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "*this is plain_text text*"
+							},
+							"value": "value-0"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "*this is plain_text text*",
+								"emoji": true
+							},
+							"value": "value-1"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "*this is plain_text text*",
+								"emoji": true
+							},
+							"value": "value-2"
+						}
+					],
+					"action_id": "actionId-3"
+				},
+				{
+					"type": "radio_buttons",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "All day",
+								"emoji": true
+							},
+							"value": "value-0"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Half a day (AM)",
+								"emoji": true
+							},
+							"value": "value-1"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Half a day (PM)",
+								"emoji": true
+							},
+							"value": "value-2"
+						}
+					],
+					"action_id": "actionId-0"
+				},
+				{
+					"type": "button",
+					"style": "primary",
+					"text": {
+						"type": "plain_text",
+						"text": "Create reservation",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-5"
+				},
+				{
+					"type": "button",
+					"style": "danger",
+					"text": {
+						"type": "plain_text",
+						"text": "Cancel",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-6"
+				}
+			]
+		}
+	]
+}
+]

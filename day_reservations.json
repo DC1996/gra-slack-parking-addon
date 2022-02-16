@@ -1,0 +1,17 @@
+{
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":date: *Reservation for:*  *11/02/2022*\n *A002* \t Tiboslav Cukríkový \t All day \n *A004* \t Tiboslav Cukríkový \t All day \n *A006* \t Tiboslav Cukríkový \t All day \n"
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

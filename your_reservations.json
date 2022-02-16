@@ -1,0 +1,26 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Your reservations",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":date: *11/02/2022*\n *A002* \t Tiboslav Cukríkový \t All day \n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":date: *12/02/2022* \n *A002* \t Tiboslav Cukríkový \t Half a day (AM)"
+			}
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Quick overview",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":date: *11/02/2022* \n Parking slots occupied: 3/100 \n *A002* \t Tiboslav Cukríkový \t celý deň \n *A004* \t Zajačik Biely \t\t\t    celý deň\n *A005* \t Ňom Cukríkovitý\t\t celý deň"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":date: *12/02/2022* \n Parking slots occupied: 5/100 \n *A002* \t Tiboslav Cukríkový \t celý deň \n *A003* \t Tiboslav Cukríkový \t celý deň \n *A004* \t Zajačik Biely \t\t\t    celý deň\n *A005* \t Ňomiii Cukríkovitý \t celý deň"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Reserve a slot",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "click_me_123",
+					"action_id": "actionId-0"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Cancel a reservation",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "click_me_123",
+					"action_id": "actionId-1"
+				}
+			]
+		}
+	]
+}
