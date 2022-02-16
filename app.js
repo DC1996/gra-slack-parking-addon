@@ -38,6 +38,12 @@ const receiver = new ExpressReceiver(
 receiver.router.post('/slack/events', (req, res) => {
   res.status(200).send({"challenge": req.body.challenge});
 })
+receiver.router.get('/', (req, res) => {
+  res.status(200).send({
+    "App": "GoodRequest Academy Parking Add-on",
+    "Message": "Slack app built with Bolt framework"
+  });
+})
 
 // Initializes the app with the bot token, signing secret and reciever
 const boltApp = new App({
